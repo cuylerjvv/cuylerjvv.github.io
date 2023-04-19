@@ -1,0 +1,377 @@
+/* LAYOUT */
+body {
+    margin: 0;
+}
+.d-flex {
+    display: flex;
+}
+.text-align-center{
+    text-align: center;
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.justify-content-space-evenly{
+    justify-content: space-evenly;
+}
+.justify-content-space-center{
+    justify-content: center;
+}
+/* COLORS */
+.main-color1{
+    color:brown;
+}
+.main-color2{
+    color: bisque;
+}
+.main-color3{
+    color: goldenrod;
+}
+.color-white {
+    color: white;
+}
+.color-black {
+    color: black;
+}
+.bg-color1{
+    background-color:brown;
+}
+.bg-color2{
+    background-color: bisque;
+}
+.bg-color3{
+    background-color: goldenrod;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-black {
+    background-color: black;
+}
+
+/* BACKGROUND IMAGE */
+#bg-image-section{
+    background-image: url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* NAVBAR INFO SECTION */
+.navbar-info{
+    background-color: rgba(255, 228, 196, 0.7);
+    padding: 5px 60px 5px 0;
+    text-align: end;
+}
+@media (min-width: 900px){
+    .navbar-info{
+        background-color: #fff;
+    }
+}
+
+/* NAVBAR SECTION */
+.navbar-div {
+    padding: 20px 60px 0px 40px;
+}
+
+/* NAVBAR LOGO */
+.navbar-logo-image {
+    width: 120px;
+    border-radius: 80%;
+}
+
+/*  */
+.navbar-pages-div{
+    padding-top: 10px;
+}
+
+/* NAVBAR PAGES LIST */
+.navbar-pages-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* NAVBAR PAGES LIST ITEMS*/
+.navbar-pages-list-item {
+    border-radius: 0px;
+    margin: 0 0px;
+    padding: 10px 20px;
+    vertical-align: center;
+}
+.navbar-pages-list-item:hover {
+    background-color: rgba(255, 228, 196, 0.507);
+}
+.navbar-pages-anchor-tag {
+    color: white;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+.navbar-pages-anchor-tag:hover {
+    color: white;
+    text-decoration: none;
+}
+/* NAVBAR CTA BUTTON */
+.navbar-cta-button {
+    background-color: goldenrod;
+    border-radius: 0px;
+    margin-left: 20px;
+    padding: 10px 25px;
+    vertical-align: center;
+}
+.navbar-cta-button:hover {
+    background-color: rgb(161, 119, 11);
+}
+.navbar-cta-anchor-tag {
+    color: white;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+.navbar-cta-anchor-tag:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO SECTION */
+#hero-section-id{
+    height: 600px;
+}
+.hero-section-div{
+    padding: 10%;
+}
+.hero-section-heading{
+    color: #fff;
+    font-size: 4rem;
+    margin: 50px 0 100px 0;
+    text-align: center;
+}
+.hero-section-button{
+    background-color: goldenrod;
+    border-radius: 0px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px 20px;
+    vertical-align: center;
+    width: fit-content;
+}
+.hero-section-button:hover {
+    background-color: rgb(161, 119, 11);
+}
+.hero-section-button-anchor-tag {
+    color: white;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+.hero-section-button-anchor-tag:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* ABOUT SECTION */
+#about-section{
+    padding: 8% 20%;
+}
+.about-div{
+    text-align: center;
+}
+.about-heading{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.about-hr{
+    background-color: black;
+    margin-bottom: 20px;
+}
+.about-paragraph{
+    font-size: 1.2rem;
+}
+
+/* LINKS-TO-PAGES-SECTION */
+
+.link-to-pages-div{
+    min-height: 400px;
+}
+/* Col-backgrounds */
+.link-to-pages-bg1{
+    background-image: url(../images/image1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.link-to-pages-bg2{
+    background-image: url(../images/image2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.link-to-pages-bg3{
+    background-image: url(../images/image3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.link-to-pages-col-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+}
+.link-to-pages-header{
+    color: bisque;
+    font-family: 'dancing script';
+    font-size: 2.5rem;
+    margin: 0 auto 0 auto;
+}
+.link-to-pages-button{
+    background-color: goldenrod;
+    border-radius: 0px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: fit-content;
+}
+.link-to-pages-button:hover {
+    background-color: rgb(161, 119, 11);
+}
+.link-to-pages-button-anchor-tag {
+    color: white;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+.link-to-pages-button-anchor-tag:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* CALL TO ACTION SECTION */
+#call-to-action-section{
+    background-image: url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.call-to-action-div{
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 18%;
+    text-align: center;
+}
+.call-to-action-header{
+    color: white;
+}
+.call-to-action-button-div{
+    width: fit-content;
+    margin: 50px auto 0 auto;
+}
+.call-to-action-button{
+    background-color: goldenrod;
+    border-radius: 0px;
+    list-style: none;
+    margin: 0 30px 0 30px;
+    padding: 10px 20px;
+    vertical-align: center;
+    width: fit-content;
+}
+.call-to-action-button:hover {
+    background-color: rgb(161, 119, 11);
+}
+.call-to-action-button-anchor-tag {
+    color: white;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+.call-to-action-button-anchor-tag:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* TESTIMONIALS SECTION */
+#testimonials-section{
+    padding: 8% 10%;
+}
+.testimonial-col-div{
+    padding: 25px;
+}
+.testimonial-paragraph{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.testimonial-hr-col{
+    width: 100%;
+}
+.testimonial-name{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* FOOTER SECTION */
+.footer-div{
+    padding: 10% 80px 8% 80px;
+}
+.footer-logo-image {
+    width: 220px;
+    border-radius: 80%;
+}
+
+/* FOOTER PAGES LIST*/
+.footer-pages-list {
+    list-style: none;
+    padding-left: 0;
+}
+.footer-pages-list-item {
+    padding: 5px 0 5px 0;
+    vertical-align: center;
+}
+.footer-pages-anchor-tag {
+    color: white;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+.footer-pages-anchor-tag:hover {
+    color: rgb(114, 24, 24);
+    text-decoration: none;
+}
+
+/* FOOTER CONTACT DETAILS LIST */
+.footer-contact-details-list {
+    list-style: none;
+    padding-left: 0;
+}
+.footer-contact-details-list-item {
+    padding: 5px 0 5px 0;
+    vertical-align: center;
+}
+.telephone-icon{
+    width: 20px;
+}
+.email-icon{
+    width: 20px;
+}
+
+/* FOOTER ADRESS LIST*/
+.footer-adress-list {
+    list-style: none;
+    padding-left: 0;
+}
+.footer-adress-list-item {
+    padding: 5px 0 5px 0;
+    vertical-align: center;
+}
+.footer-adress-anchor-tag {
+    color: white;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+.footer-adress-anchor-tag:hover {
+    color: rgb(114, 24, 24);
+    text-decoration: none;
+}
+
+
+/* WEBSITE WATERMARK */
+.website-watermark{
+    background-color: greenyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 12px 0 15px 0;
+}
+.website-watermark-paragraph{
+    margin: 0;
+}
